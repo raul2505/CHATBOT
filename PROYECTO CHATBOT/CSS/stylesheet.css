@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .navbar {
+    background-color: #002a5b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar h1 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar h1 i {
+    margin-right: 10px;
+  }
+  
+  .navbar img {
+    height: 40px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info i {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .user-info p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: right;
+  }
+  
+  .container {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #1e1e2d;
+    color: #fff;
+    padding: 15px;
+    height: 100vh;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #333;
+  }
+  
+  .sidebar a i {
+    margin-right: 10px;
+  }
+  
+  .main-content {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-header h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .card-body {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-body img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .card-info {
+    flex-grow: 1;
+    padding-left: 15px;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 10px;
+    margin-top: 5px;
+    width: 100%;
+  }
+  
+  .progress {
+    background-color: #4caf50;
+    height: 10px;
+    border-radius: 10px;
+  }
+  
+  .syllabus {
+    margin-top: 15px;
+  }
+  
+  .syllabus a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .syllabus a:hover {
+    text-decoration: underline;
+  }
+  

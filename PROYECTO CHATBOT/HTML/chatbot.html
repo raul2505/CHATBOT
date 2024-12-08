@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="../CSS/chatbot.css" />
+  </head>
+  <body>
+    <div id="chat-app">
+      <!-- Barra Lateral Izquierda -->
+      <div id="left-sidebar">
+        <div id="notifications">
+          <h3></h3>
+        </div>
+        <div id="suggestions">
+          <h3></h3>
+        </div>
+      </div>
+
+      <div id="chat-area">
+        <div id="chat-header">
+          <h3>CHATBOT</h3>
+          <p>Estoy aquí para ayudarte</p>
+        </div>
+        <div id="chatbox"></div>
+        <div id="input-container">
+          <input
+            type="text"
+            id="user_input"
+            placeholder="Escribe tu mensaje..."
+          />
+          <button onclick="sendMessage()">Enviar</button>
+        </div>
+      </div>
+
+      <!-- Barra Lateral Derecha -->
+      <div id="right-sidebar">
+        <div id="chats">
+          <h3>--------CHATBOT------</h3>
+
+          <div id="direct-chats"></div>
+        </div>
+      </div>
+    </div>
+    <script src="../JAVASCRIPT/script.js"></script>
+  </body>
+</html>

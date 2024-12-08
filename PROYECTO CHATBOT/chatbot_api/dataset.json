@@ -1,0 +1,523 @@
+{  
+    "intents": [
+                    {
+                        "tag": "introduccion",
+                        "patterns": [
+                            "¿Qué es la ciencia de datos?",
+                            "¿Puedes explicarme qué es la ciencia de datos?",
+                            "Definición de ciencia de datos",
+                            "¿Qué hace un científico de datos?"
+                        ],
+                        "responses": [
+                            "La ciencia de datos es un campo interdisciplinario que utiliza métodos, procesos, algoritmos y sistemas para extraer conocimiento y patrones de datos estructurados y no estructurados.",
+                            "Es la combinación de estadística, programación y conocimiento del dominio para analizar datos y extraer información útil.",
+                            "Un científico de datos analiza grandes cantidades de datos para descubrir tendencias y ayudar en la toma de decisiones."
+                        ]
+                    },
+                    {
+                        "tag": "herramientas",
+                        "patterns": [
+                            "¿Qué herramientas se usan en ciencia de datos?",
+                            "Herramientas populares en ciencia de datos",
+                            "¿Cuáles son las herramientas más usadas para análisis de datos?",
+                            "Software para ciencia de datos"
+                        ],
+                        "responses": [
+                            "Algunas herramientas populares incluyen Python, R, Jupyter Notebooks, SQL, Tableau, y Apache Spark.",
+                            "Python y R son los lenguajes más utilizados para la ciencia de datos debido a sus bibliotecas como pandas, NumPy y ggplot2.",
+                            "Otras herramientas incluyen plataformas como Google BigQuery y herramientas de visualización como Power BI."
+                        ]
+                    },
+                    {
+                        "tag": "preprocesamiento",
+                        "patterns": [
+                            "¿Qué es el preprocesamiento de datos?",
+                            "¿Por qué es importante limpiar los datos?",
+                            "Definición de preprocesamiento de datos",
+                            "Pasos para preparar datos"
+                        ],
+                        "responses": [
+                            "El preprocesamiento de datos incluye limpiar, transformar y formatear datos antes de analizarlos.",
+                            "Es un paso crítico para eliminar valores nulos, duplicados y manejar valores atípicos.",
+                            "Técnicas comunes incluyen normalización, imputación de valores faltantes y codificación de variables categóricas."
+                        ]
+                    },
+                    {
+                        "tag": "aprendizaje automatico",
+                        "patterns": [
+                            "¿Qué es el aprendizaje automático?",
+                            "Definición de aprendizaje automático",
+                            "¿Puedes explicar machine learning?",
+                            "¿Cómo funciona el aprendizaje automático?"
+                        ],
+                        "responses": [
+                            "El aprendizaje automático es un campo de la inteligencia artificial que permite a las máquinas aprender de los datos y mejorar con la experiencia sin ser programadas explícitamente.",
+                            "Consiste en desarrollar algoritmos que pueden identificar patrones en los datos y hacer predicciones o tomar decisiones.",
+                            "Un ejemplo común de aprendizaje automático es el reconocimiento de imágenes o los sistemas de recomendación como los que usa Netflix."
+                        ]
+                    },
+                    {
+                        "tag": "visualizacion",
+                        "patterns": [
+                            "¿Por qué es importante la visualización de datos?",
+                            "Herramientas para visualizar datos",
+                            "¿Qué es la visualización de datos?",
+                            "Ejemplos de visualización de datos"
+                        ],
+                        "responses": [
+                            "La visualización de datos ayuda a comunicar patrones, tendencias e ideas de manera más comprensible.",
+                            "Herramientas como Tableau, matplotlib y Power BI son populares para crear gráficos y dashboards.",
+                            "Ejemplos incluyen gráficos de barras, diagramas de dispersión y mapas de calor."
+                        ]
+                    },
+                    {
+                        "tag": "deep learning",
+                        "patterns": [
+                            "¿Qué es el deep learning?",
+                            "¿Cómo funciona el aprendizaje profundo?",
+                            "Diferencia entre deep learning y machine learning",
+                            "Ejemplos de deep learning"
+                        ],
+                        "responses": [
+                            "El deep learning es una rama del aprendizaje automático que utiliza redes neuronales profundas para analizar grandes volúmenes de datos.",
+                            "Es ideal para tareas como reconocimiento de voz, procesamiento de imágenes y generación de texto.",
+                            "Un ejemplo famoso es el modelo GPT, que puede generar texto coherente."
+                        ]
+                    },
+                    {
+                        "tag": "series temporales",
+                        "patterns": [
+                            "¿Qué son las series temporales?",
+                            "Ejemplos de análisis de series temporales",
+                            "¿Cómo analizar datos de series temporales?",
+                            "Modelos para series temporales"
+                        ],
+                        "responses": [
+                            "Las series temporales son conjuntos de datos ordenados cronológicamente, como precios de acciones o datos meteorológicos.",
+                            "Modelos comunes incluyen ARIMA, Prophet y LSTM.",
+                            "El análisis de series temporales se usa para predecir valores futuros basados en patrones históricos."
+                        ]
+                    },
+                    {
+                        "tag": "etica",
+                        "patterns": [
+                            "¿Qué es la ética en ciencia de datos?",
+                            "Importancia de la ética en ciencia de datos",
+                            "¿Qué problemas éticos existen en ciencia de datos?",
+                            "Ejemplos de dilemas éticos en ciencia de datos"
+                        ],
+                        "responses": [
+                            "La ética en ciencia de datos se centra en el uso responsable y justo de los datos, respetando la privacidad y evitando sesgos.",
+                            "Es importante para construir sistemas transparentes y confiables.",
+                            "Un ejemplo de dilema ético es el uso de datos personales sin consentimiento para modelos predictivos."
+                        ]
+                    },
+                    {
+                        "tag": "big_data",
+                        "patterns": [
+                            "¿Qué es el big data?",
+                            "¿Cómo se relaciona el big data con la ciencia de datos?",
+                            "Definición de big data",
+                            "¿Qué tecnologías se usan en big data?"
+                        ],
+                        "responses": [
+                            "El big data se refiere a conjuntos de datos muy grandes o complejos que no pueden ser procesados con herramientas tradicionales.",
+                            "En ciencia de datos, el big data permite analizar información a gran escala para identificar tendencias y patrones.",
+                            "Algunas tecnologías para big data son Hadoop, Apache Spark y NoSQL databases como MongoDB."
+                        ]
+                    },
+                    {
+                        "tag": "frameworks",
+                        "patterns": [
+                            "¿Cuáles son los frameworks más usados en ciencia de datos?",
+                            "Frameworks populares en aprendizaje automático",
+                            "¿Qué frameworks debo aprender para ciencia de datos?",
+                            "Ejemplos de frameworks útiles"
+                        ],
+                        "responses": [
+                            "Algunos frameworks populares son TensorFlow, PyTorch, Scikit-learn y Keras para aprendizaje automático.",
+                            "Spark y Dask son muy usados para procesar grandes volúmenes de datos.",
+                            "Frameworks como Flask y FastAPI son útiles para implementar modelos en aplicaciones web."
+                        ]
+                    }
+                    ,
+                    {
+                        "tag": "tipos",
+                        "patterns": [
+                            "¿Cuántos tipos de sistemas operativos existen?",
+                            "Tipos de sistemas operativos",
+                            "Clasificación de sistemas operativos",
+                            "Ejemplos de diferentes sistemas operativos"
+                        ],
+                        "responses": [
+                            "Existen varios tipos de sistemas operativos, como: de tiempo compartido, distribuidos, en tiempo real, embebidos y de red.",
+                            "Algunos ejemplos son: Windows (de escritorio), Linux (distribuido), RTOS (en tiempo real) y Android (embebido).",
+                            "La clasificación depende del propósito y del hardware para el que están diseñados."
+                        ]
+                    },
+                    {
+                        "tag": "linux",
+                        "patterns": [
+                            "¿Qué es Linux?",
+                            "¿Para qué sirve Linux?",
+                            "Explícame qué es un sistema operativo Linux",
+                            "Distribuciones populares de Linux"
+                        ],
+                        "responses": [
+                            "Linux es un sistema operativo de código abierto basado en el núcleo Linux, desarrollado originalmente por Linus Torvalds.",
+                            "Es conocido por su estabilidad, seguridad y flexibilidad. Es ampliamente utilizado en servidores, dispositivos embebidos y sistemas de desarrollo.",
+                            "Algunas distribuciones populares son Ubuntu, Fedora, Debian, Arch Linux y CentOS."
+                        ]
+                    },
+                    {
+                        "tag": "windows",
+                        "patterns": [
+                            "¿Qué es Windows?",
+                            "Historia de Windows",
+                            "¿Cuáles son las versiones de Windows?",
+                            "¿Qué hace único a Windows?"
+                        ],
+                        "responses": [
+                            "Windows es un sistema operativo desarrollado por Microsoft, conocido por su interfaz gráfica amigable y uso generalizado en PCs.",
+                            "Algunas versiones populares incluyen Windows XP, Windows 7, Windows 10 y Windows 11.",
+                            "Es ampliamente utilizado tanto en entornos domésticos como empresariales."
+                        ]
+                    },
+                    {
+                        "tag": "macos",
+                        "patterns": [
+                            "¿Qué es macOS?",
+                            "¿Para qué se usa macOS?",
+                            "Características de macOS",
+                            "Diferencia entre macOS y Windows"
+                        ],
+                        "responses": [
+                            "macOS es el sistema operativo desarrollado por Apple para sus computadoras Mac.",
+                            "Es conocido por su diseño intuitivo, estabilidad y ecosistema cerrado que garantiza una integración perfecta con otros dispositivos Apple.",
+                            "A diferencia de Windows, macOS está optimizado exclusivamente para hardware de Apple."
+                        ]
+                    },
+                    {
+                        "tag": "funciones",
+                        "patterns": [
+                            "¿Qué funciones tiene un sistema operativo?",
+                            "¿Qué hace un sistema operativo?",
+                            "Funciones principales de un sistema operativo",
+                            "Tareas de un sistema operativo"
+                        ],
+                        "responses": [
+                            "Las funciones principales de un sistema operativo incluyen la gestión de memoria, la gestión de procesos, la comunicación entre dispositivos y el manejo de archivos.",
+                            "Un sistema operativo también proporciona una interfaz de usuario y asegura que los recursos sean utilizados eficientemente.",
+                            "Actúa como intermediario para que los programas puedan interactuar con el hardware."
+                        ]
+                    },
+                    {
+                        "tag": "procesos",
+                        "patterns": [
+                            "¿Qué es un proceso en sistemas operativos?",
+                            "¿Cómo funciona la gestión de procesos?",
+                            "Definición de procesos en sistemas operativos",
+                            "Ejemplos de procesos en ejecución"
+                        ],
+                        "responses": [
+                            "Un proceso es un programa en ejecución que incluye su código, datos y estado actual.",
+                            "El sistema operativo gestiona procesos mediante planificación, asignación de recursos y control del estado de cada proceso.",
+                            "Ejemplos incluyen aplicaciones como navegadores web, editores de texto o servicios del sistema."
+                        ]
+                    },
+                    {
+                        "tag": "memoria",
+                        "patterns": [
+                            "¿Cómo se gestiona la memoria en un sistema operativo?",
+                            "¿Qué es la gestión de memoria?",
+                            "¿Por qué es importante la memoria en sistemas operativos?",
+                            "Técnicas de gestión de memoria"
+                        ],
+                        "responses": [
+                            "La gestión de memoria se encarga de asignar y liberar espacio de memoria para procesos en ejecución.",
+                            "Técnicas comunes incluyen paginación, segmentación y memoria virtual.",
+                            "El objetivo es maximizar el uso eficiente de la memoria y evitar problemas como la fragmentación."
+                        ]
+                    },
+                    {
+                        "tag": "seguridad",
+                        "patterns": [
+                            "¿Qué medidas de seguridad tienen los sistemas operativos?",
+                            "¿Cómo protege un sistema operativo los datos?",
+                            "¿Qué es la seguridad en sistemas operativos?",
+                            "Características de seguridad en sistemas operativos modernos"
+                        ],
+                        "responses": [
+                            "La seguridad en sistemas operativos incluye características como autenticación, autorización y cifrado de datos.",
+                            "También se implementan firewalls, sistemas de detección de intrusos y actualizaciones frecuentes para proteger contra vulnerabilidades.",
+                            "Un sistema operativo seguro minimiza los riesgos de acceso no autorizado y pérdida de datos."
+                        ]
+                    },
+                    {
+                        "tag": "virtualizacion",
+                        "patterns": [
+                            "¿Qué es la virtualización en sistemas operativos?",
+                            "¿Para qué sirve la virtualización?",
+                            "Ejemplos de software de virtualización",
+                            "Ventajas de la virtualización"
+                        ],
+                        "responses": [
+                            "La virtualización permite ejecutar múltiples sistemas operativos en una sola máquina física mediante el uso de máquinas virtuales.",
+                            "Software popular para virtualización incluye VMware, VirtualBox y Hyper-V.",
+                            "Es útil para probar diferentes entornos, consolidar servidores y mejorar la eficiencia del hardware."
+                        ]
+                    },
+                    {
+                        "tag": "ciclo vida sistemas",
+                        "patterns": [
+                            "¿Qué es el ciclo de vida de los sistemas?",
+                            "Fases del ciclo de vida de sistemas",
+                            "¿Cómo se desarrolla un sistema?",
+                            "Pasos para crear un sistema"
+                        ],
+                        "responses": [
+                            "El ciclo de vida de los sistemas incluye las fases de planificación, análisis, diseño, implementación y mantenimiento.",
+                            "Cada fase tiene un propósito específico, desde entender los requisitos hasta mantener el sistema en funcionamiento.",
+                            "El ciclo de vida asegura que los sistemas sean diseñados y desarrollados de manera eficiente y sostenible."
+                        ]
+                    },
+                    {
+                        "tag": "uml",
+                        "patterns": [
+                            "¿Qué es UML?",
+                            "¿Para qué sirve UML?",
+                            "Diagramas UML más comunes",
+                            "Ejemplos de UML"
+                        ],
+                        "responses": [
+                            "UML (Unified Modeling Language) es un lenguaje de modelado utilizado para visualizar, especificar y documentar sistemas de software.",
+                            "Los diagramas más comunes incluyen el diagrama de casos de uso, diagrama de clases, y diagrama de secuencia.",
+                            "Es útil para comunicar el diseño del sistema entre equipos de desarrollo."
+                        ]
+                    },
+                    {
+                        "tag": "metodologias",
+                        "patterns": [
+                            "¿Qué metodologías se usan en análisis y diseño de sistemas?",
+                            "Metodologías populares en desarrollo de sistemas",
+                            "¿Cuál es la diferencia entre metodologías ágiles y tradicionales?",
+                            "Ejemplos de metodologías de desarrollo"
+                        ],
+                        "responses": [
+                            "Las metodologías más comunes son las ágiles (como Scrum y Kanban) y las tradicionales (como el modelo en cascada).",
+                            "Las metodologías ágiles son iterativas y se centran en la flexibilidad, mientras que las tradicionales siguen un enfoque más estructurado.",
+                            "Cada metodología tiene sus ventajas y desventajas dependiendo del proyecto."
+                        ]
+                    },
+                    {
+                        "tag": "requisitos",
+                        "patterns": [
+                            "¿Qué son los requisitos en sistemas?",
+                            "Tipos de requisitos de sistemas",
+                            "¿Cómo se recopilan los requisitos?",
+                            "Importancia de los requisitos en el análisis de sistemas"
+                        ],
+                        "responses": [
+                            "Los requisitos son las necesidades o condiciones que un sistema debe cumplir para satisfacer las expectativas del usuario.",
+                            "Se clasifican en requisitos funcionales (lo que el sistema debe hacer) y no funcionales (calidad, seguridad, etc.).",
+                            "Se recopilan mediante entrevistas, cuestionarios, observación y talleres con los interesados."
+                        ]
+                    },
+                    {
+                        "tag": "herramientas",
+                        "patterns": [
+                            "¿Qué herramientas se usan para el análisis de sistemas?",
+                            "Herramientas para diseño de sistemas",
+                            "¿Qué software es útil para modelar sistemas?",
+                            "Ejemplos de herramientas para análisis de sistemas"
+                        ],
+                        "responses": [
+                            "Algunas herramientas comunes incluyen Visio, Lucidchart y Draw.io para diagramas, y herramientas como Enterprise Architect para modelado avanzado.",
+                            "Los sistemas CASE (Computer-Aided Software Engineering) son útiles para automatizar tareas en el análisis y diseño.",
+                            "Para la gestión de proyectos, herramientas como Jira y Trello también son populares."
+                        ]
+                    },
+                    {
+                        "tag": "diagrama casos uso",
+                        "patterns": [
+                            "¿Qué es un diagrama de casos de uso?",
+                            "Ejemplo de diagrama de casos de uso",
+                            "¿Cómo se crean los casos de uso?",
+                            "Elementos de un diagrama de casos de uso"
+                        ],
+                        "responses": [
+                            "Un diagrama de casos de uso representa las interacciones entre los usuarios (actores) y el sistema.",
+                            "Incluye elementos como actores, casos de uso y relaciones como inclusión y extensión.",
+                            "Es útil para comprender los requisitos funcionales de un sistema."
+                        ]
+                    },
+                    {
+                        "tag": "diagrama clases",
+                        "patterns": [
+                            "¿Qué es un diagrama de clases?",
+                            "Ejemplo de diagrama de clases",
+                            "¿Cómo se representa la estructura de un sistema?",
+                            "Elementos de un diagrama de clases"
+                        ],
+                        "responses": [
+                            "Un diagrama de clases muestra la estructura estática de un sistema, incluyendo clases, atributos, métodos y relaciones.",
+                            "Es fundamental para modelar la arquitectura de un sistema orientado a objetos.",
+                            "Las relaciones comunes incluyen asociación, herencia y composición."
+                        ]
+                    },
+                    {
+                        "tag": "testing",
+                        "patterns": [
+                            "¿Qué es el testing en desarrollo de sistemas?",
+                            "Fases del testing en sistemas",
+                            "¿Cómo se prueba un sistema?",
+                            "Importancia del testing en sistemas"
+                        ],
+                        "responses": [
+                            "El testing es el proceso de verificar que un sistema funciona según los requisitos especificados.",
+                            "Incluye pruebas unitarias, de integración, de sistema y de aceptación.",
+                            "Es esencial para detectar y corregir errores antes de que el sistema sea implementado."
+                        ]
+                    },
+                    {
+                        "tag": "mantenimiento",
+                        "patterns": [
+                            "¿Qué es el mantenimiento de sistemas?",
+                            "Tipos de mantenimiento en sistemas",
+                            "¿Por qué es importante el mantenimiento?",
+                            "Ejemplos de mantenimiento de sistemas"
+                        ],
+                        "responses": [
+                            "El mantenimiento de sistemas incluye la corrección de errores, la adaptación a nuevos requisitos y la mejora continua.",
+                            "Los tipos incluyen correctivo, adaptativo, perfectivo y preventivo.",
+                            "Es esencial para garantizar que el sistema siga siendo útil y relevante a lo largo del tiempo."
+                        ]
+                    },
+                    {
+                        "tag": "aprendizaje automatico",
+                        "patterns": [
+                            "¿Qué es el aprendizaje automático?",
+                            "¿Cómo funciona el machine learning?",
+                            "Tipos de aprendizaje automático",
+                            "¿Qué es un modelo de aprendizaje automático?"
+                        ],
+                        "responses": [
+                            "El aprendizaje automático es una rama de la inteligencia artificial que permite a las máquinas aprender de los datos y mejorar con la experiencia.",
+                            "Existen tres tipos principales de aprendizaje: supervisado, no supervisado y por refuerzo.",
+                            "Los modelos de aprendizaje automático se entrenan usando datos para hacer predicciones o decisiones basadas en esos datos."
+                        ]
+                    },
+                    {
+                        "tag": "redes neuronales",
+                        "patterns": [
+                            "¿Qué son las redes neuronales?",
+                            "¿Cómo funcionan las redes neuronales artificiales?",
+                            "¿Cuáles son las capas en una red neuronal?",
+                            "Ejemplos de redes neuronales"
+                        ],
+                        "responses": [
+                            "Las redes neuronales son un tipo de modelo computacional inspirado en el cerebro humano, que consiste en capas de nodos (o neuronas) conectados entre sí.",
+                            "El aprendizaje en redes neuronales se realiza ajustando los pesos de las conexiones entre las neuronas para minimizar el error en las predicciones.",
+                            "Ejemplos comunes incluyen redes neuronales profundas (deep learning), como las usadas en reconocimiento de voz e imagen."
+                        ]
+                    },
+                    {
+                        "tag": "procesamiento lenguaje natural",
+                        "patterns": [
+                            "¿Qué es el procesamiento de lenguaje natural?",
+                            "¿Cómo funcionan los sistemas de procesamiento de lenguaje?",
+                            "¿Qué es NLP?",
+                            "Ejemplos de procesamiento de lenguaje natural"
+                        ],
+                        "responses": [
+                            "El procesamiento de lenguaje natural (NLP) es un campo de la inteligencia artificial que se ocupa de la interacción entre las computadoras y el lenguaje humano.",
+                            "NLP se utiliza para tareas como la traducción automática, la generación de texto, y el análisis de sentimientos.",
+                            "Ejemplos incluyen asistentes virtuales como Siri y Alexa, o sistemas de análisis de texto."
+                        ]
+                    },
+                    {
+                        "tag": "algoritmos inteligentes",
+                        "patterns": [
+                            "¿Qué son los algoritmos inteligentes?",
+                            "¿Qué son los algoritmos evolutivos?",
+                            "Ejemplos de algoritmos inteligentes",
+                            "¿Para qué sirven los algoritmos genéticos?"
+                        ],
+                        "responses": [
+                            "Los algoritmos inteligentes son técnicas que buscan encontrar soluciones óptimas o cercanas a lo óptimo para problemas complejos, a menudo inspirados en procesos naturales.",
+                            "Los algoritmos evolutivos, como los algoritmos genéticos, utilizan principios de selección natural para encontrar soluciones a problemas difíciles.",
+                            "Ejemplos incluyen algoritmos de optimización, como los genéticos y los algoritmos de enjambre."
+                        ]
+                    },
+                    {
+                        "tag": "sistemas expertos",
+                        "patterns": [
+                            "¿Qué es un sistema experto?",
+                            "¿Cómo funciona un sistema experto?",
+                            "Ejemplos de sistemas expertos",
+                            "¿Cuál es la diferencia entre un sistema experto y una IA?"
+                        ],
+                        "responses": [
+                            "Un sistema experto es un software diseñado para simular el conocimiento y el razonamiento de un experto humano en un dominio específico.",
+                            "Utiliza reglas basadas en conocimiento y razonamiento lógico para tomar decisiones o resolver problemas.",
+                            "Un ejemplo clásico es un sistema de diagnóstico médico que puede sugerir enfermedades basadas en síntomas."
+                        ]
+                    },
+                    {
+                        "tag": "inteligencia colectiva",
+                        "patterns": [
+                            "¿Qué es la inteligencia colectiva?",
+                            "¿Cómo se aplica la inteligencia colectiva?",
+                            "Ejemplos de inteligencia colectiva",
+                            "¿Qué es el aprendizaje colectivo?"
+                        ],
+                        "responses": [
+                            "La inteligencia colectiva es la capacidad de un grupo de individuos (humanos o máquinas) para colaborar y resolver problemas de manera más eficaz que un individuo solo.",
+                            "Se aplica en áreas como la toma de decisiones, el análisis de grandes volúmenes de datos y la resolución de problemas complejos.",
+                            "Ejemplos incluyen el crowdsourcing y los sistemas de recomendación colaborativa."
+                        ]
+                    },
+                    {
+                        "tag": "robots inteligentes",
+                        "patterns": [
+                            "¿Qué son los robots inteligentes?",
+                            "¿Cómo funcionan los robots inteligentes?",
+                            "Ejemplos de robots inteligentes",
+                            "¿Qué hace un robot inteligente?"
+                        ],
+                        "responses": [
+                            "Los robots inteligentes son máquinas autónomas capaces de realizar tareas complejas mediante el uso de sensores, algoritmos de IA y actuadores.",
+                            "Estos robots pueden aprender y adaptarse a su entorno para realizar tareas como navegación, reconocimiento de objetos y resolución de problemas.",
+                            "Ejemplos incluyen robots de entrega como los de Amazon y robots de limpieza como Roomba."
+                        ]
+                    },
+                    {
+                        "tag": "inteligencia artificial general",
+                        "patterns": [
+                            "¿Qué es la inteligencia artificial general?",
+                            "¿Cómo se logra la inteligencia artificial general?",
+                            "Diferencia entre IA general y IA estrecha",
+                            "¿Es posible desarrollar inteligencia artificial general?"
+                        ],
+                        "responses": [
+                            "La inteligencia artificial general (AGI) se refiere a una IA que puede realizar cualquier tarea cognitiva humana, mientras que la IA estrecha está diseñada para tareas específicas.",
+                            "AGI requiere una comprensión más profunda y flexible de la inteligencia, similar a la de los seres humanos.",
+                            "Aunque aún no se ha logrado la AGI, es un área activa de investigación en IA."
+                        ]
+                    },
+                    {
+                        "tag": "aprendizaje profundo",
+                        "patterns": [
+                            "¿Qué es el aprendizaje profundo?",
+                            "¿Cómo funciona el deep learning?",
+                            "¿Cuáles son las aplicaciones del deep learning?",
+                            "¿Qué son las redes neuronales profundas?"
+                        ],
+                        "responses": [
+                            "El aprendizaje profundo es un tipo de aprendizaje automático que utiliza redes neuronales profundas con múltiples capas para modelar representaciones complejas de datos.",
+                            "Se utiliza en tareas como la clasificación de imágenes, el reconocimiento de voz y la traducción automática.",
+                            "Las redes neuronales profundas tienen la capacidad de aprender características de datos de alto nivel sin intervención humana."
+                        ]
+                    }
+                ]          
+}

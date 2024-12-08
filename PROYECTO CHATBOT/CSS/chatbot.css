@@ -1,0 +1,247 @@
+/* Estilo General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #ffffff;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Contenedor Principal */
+#chat-app {
+    display: flex;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Barra Lateral Izquierda */
+#left-sidebar {
+    width: 250px;
+    background-color: #2f2f2f;
+    padding: 20px;
+    border-right: 2px solid #3b3b3b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    position: relative;
+    background-image: url('../IMG/81a7aa8e-1454-4b90-8852-ebcba5824381.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+/* Agregar una capa semi-transparente para que el texto sea legible sobre la imagen */
+#left-sidebar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+#left-sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    z-index: 1; /* Asegura que el texto esté por encima de la capa */
+}
+
+#left-sidebar #notifications,
+#left-sidebar #suggestions {
+    margin-top: 20px;
+    z-index: 1;
+}
+
+/* Iconos en las barras laterales */
+#left-sidebar #notifications::before,
+#left-sidebar #suggestions::before {
+    content: "\1F514"; /* Icono de campana */
+    margin-right: 8px;
+}
+
+#left-sidebar #suggestions::before {
+    content: "\1F4A1"; /* Icono de bombilla */
+}
+
+/* Área de Conversación */
+#chat-area {
+    flex-grow: 1;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#chat-header h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+#chat-header p {
+    font-size: 14px;
+    color: #a8a8a8;
+}
+
+#chatbox {
+    flex-grow: 1;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: auto;
+    position: relative;
+}
+
+/* Estilo de los Mensajes */
+.message {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    max-width: 75%;
+    position: relative;
+    animation: slideIn 0.5s ease-out;
+}
+
+/* Mensajes del Bot */
+.bot-message {
+    background-color: #3d3d3d;
+    color: #c7c7c7;
+    margin-right: auto;
+}
+
+.bot-message::before {
+    content: "🤖";
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+/* Mensajes del Usuario */
+.user-message {
+    background-color: #0054a6;
+    color: #ffffff;
+    align-self: flex-end;
+}
+
+.user-message::before {
+    content: "👤";
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+.time {
+    font-size: 12px;
+    color: #777;
+}
+
+/* Contenedor de Entrada de Texto */
+#input-container {
+    display: flex;
+    margin-top: 10px;
+    position: sticky;
+    bottom: 0;
+    background-color: #262626;
+    padding: 10px;
+    z-index: 10;
+}
+
+/* Estilo del Input */
+#user_input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: white;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#user_input:focus {
+    border-color: #007bff;
+}
+
+/* Estilo del Botón */
+button {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #0054a6;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+button:active {
+    background-color: #004494;
+    transform: scale(0.98);
+}
+
+/* Animación de Entrada de los Mensajes */
+@keyframes slideIn {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Scrollbar Personalizada */
+#chatbox::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chatbox::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+    border-radius: 8px;
+}
+
+#chatbox::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #chat-app {
+        flex-direction: column;
+    }
+
+    #left-sidebar, #right-sidebar {
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 2px solid #3b3b3b;
+    }
+
+    #chat-area {
+        padding: 10px;
+    }
+
+    #input-container {
+        padding: 5px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
